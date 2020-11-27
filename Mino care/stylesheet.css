@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Handlee', cursive;
+    margin-top: 45px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+#user_name, #password{
+    grid-column: span 2;
+    border-radius: 20px;
+    height: 45px;
+}
+
+.label{
+    grid-column: span 2;   
+}
+
+.forgot_login{
+    justify-self: end;
+}
+
+.button{
+    border-radius: 25px;
+    height: 60px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FCDFF8;
+}
+
+.brand_image{
+    justify-self: center;
+    width: 50%;
+    margin-top: 25px;
+}
+
+/*Profil*/
+
+.navbar{
+    position: fixed;
+    border: 1px solid black;
+    border-radius: 15px;
+    bottom: 15px;
+    left: 10%;
+   width: 80%;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: flex;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.primary{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: span 2;
+    gap: 20px;
+    margin-top: 30px; 
+} */
+
+.diary{
+  border: 4px solid black;
+  text-align: center;
+  border-radius: 15px;
+  padding: 40px 0;
+}
+
+.todo{
+    border: 4px solid black;
+     text-align: center;
+    border-radius: 15px;
+    padding: 40px 0;
+
+    
+}
+
+/* Gemte */
+.saved h2 {
+margin-bottom: 0;
+}
+
+.gemte{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 10px;
+    
+}
+
+.gemte_knap {
+    border: 4px solid black;
+    border-radius: 15px;  
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*margin: 20px;*/ 
+}
+.gemte_knap img {
+    height: 36px;
+}
+
+.profile{
+    background-color: #EBEEFF;
+}
